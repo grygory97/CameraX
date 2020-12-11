@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <EditTextPreference
+            app:defaultValue="3"
+            app:key="photo_number"
+            app:title="@string/photo_number_title"
+            app:useSimpleSummaryProvider="true" />
+        >
+
+        <EditTextPreference
+            app:defaultValue="2"
+            app:key="time_period"
+            app:title="@string/time_period_title"
+            app:useSimpleSummaryProvider="true" />
+        >
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
